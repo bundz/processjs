@@ -1,0 +1,30 @@
+{
+  "name": "processjs",
+  "version": "1.0.0",
+  "description": "A process viewer in nodejs.",
+  "main": "process.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bundz/processjs.git"
+  },
+  "keywords": [
+    "process",
+    "nodejs"
+  ],
+  "author": "Vítor Alano de Ataides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bundz/processjs/issues"
+  },
+  "homepage": "https://github.com/bundz/processjs#readme",
+  "dependencies": {
+    "shelljs": "^0.7.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
